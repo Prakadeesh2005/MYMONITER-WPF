@@ -1,0 +1,18 @@
+﻿<Window x:Class="Mymoniter.DemoColl"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Mymoniter"
+        mc:Ignorable="d"
+        Title="DemoColl" Height="450" Width="800">
+    <StackPanel>
+        <Button Name="btnarray" Click="btnarray_Click" Content="ArrayList"></Button>
+        <Button Name="btnashTable" Click="btnashTable_Click" Content="HashTable"></Button>
+        <Button Name="btnstack" Click="btnstack_Click" Content="Stack"></Button>
+        <Button Name="btnque" Click="btnque_Click" Content="Queue"></Button>
+        <Button Name="btnbit" Click="btnbit_Click" Content="BitArray"></Button>
+        <Button Name="btnsort" Click="btnsort_Click" Content="SortOrderList"></Button>
+        <Button Name="btnlist" Click="btnlist_Click" Content="List Generic"></Button>
+    </StackPanel>
+</Window>
